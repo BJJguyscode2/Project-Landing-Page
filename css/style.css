@@ -1,3 +1,75 @@
-body{
-
+html{
+    margin:0;
+    min-height:100%
 }
+
+body{
+    display:flex;
+    flex: 0 1 auto;
+    flex-flow:column wrap;
+    margin:20px;
+    background:black;
+    color:white;
+    font-family:verdana, 'Times New Roman', Times, serif;
+    }
+
+ol,ul,li {
+    padding:5px;
+    text-decoration:none;
+    list-style:none;
+    }
+
+.head-container{
+    display:flex;
+    flex-flow:column wrap;
+    }    
+    
+.header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    }
+
+.header-link{
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    }
+
+    .intro-container{
+    display:flex;
+    flex-flow:column wrap;
+    }
+
+    .Longevity{
+    font-size:36px;
+    display:flex;
+    justify-content:center;
+    }
+
+    .intro{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    }
+
+    .learning{
+    display:flex;
+    padding:5px;
+    width:fit-content;    
+    }/*go add some grammar corrections to html*/
+
+    .coaches-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow:column nowrap;
+    }
+
+    .coaches{
+    display:flex;
+    flex-direction:row;
+    padding-right:10px;
+    }
